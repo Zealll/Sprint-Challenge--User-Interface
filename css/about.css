@@ -96,14 +96,15 @@ nav {
 }
 
 .about{
-    margin-bottom: 20px;
+    margin: 0 20px;
+    padding: 10px 0;
     border-bottom: 1px dashed black;
 }
 
 .scnd {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
     
 }
@@ -176,3 +177,6 @@ button{
     text-decoration: none;   
 }
 
+h2 {
+    margin-top: 10px;
+}

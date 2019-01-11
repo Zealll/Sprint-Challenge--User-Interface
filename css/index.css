@@ -143,6 +143,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .b {
@@ -161,6 +162,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .c {
@@ -179,6 +181,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .d {
@@ -197,6 +200,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .e {
@@ -215,6 +219,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .f {
@@ -233,6 +238,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .g {
@@ -251,6 +257,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .h {
@@ -269,6 +276,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .i {
@@ -287,6 +295,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .j {
@@ -298,6 +307,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .j:hover {
@@ -305,6 +315,7 @@ nav {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transition: 0.3s;
+        cursor: pointer;
 }
 
 .box {

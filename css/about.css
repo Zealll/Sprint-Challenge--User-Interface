@@ -151,7 +151,10 @@ button{
     cursor: pointer;
     border: 1.5px  solid black;
     padding: 5px 20px;
-    
+}
+
+button:hover {
+    background: lightblue;
 }
 
 .end {

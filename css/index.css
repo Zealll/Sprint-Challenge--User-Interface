@@ -138,6 +138,13 @@ nav {
     justify-content: center;
 }
 
+.a:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
+
 .b {
     width: 12.5%;
     height: 100px;
@@ -149,6 +156,13 @@ nav {
     justify-content: center;
  }
 
+ .b:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
+
 .c {
     width: 12.5%;
     height: 100px;
@@ -158,6 +172,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.c:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
 }
 
 .d {
@@ -171,6 +192,13 @@ nav {
     justify-content: center;
 }
 
+.d:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
+
 .e {
     width: 12.5%;
     height: 100px;
@@ -180,6 +208,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.e:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
 }
 
 .f {
@@ -193,6 +228,13 @@ nav {
     justify-content: center;
 }
 
+.f:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
+
 .g {
     width: 12.5%;
     height: 100px;
@@ -202,6 +244,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.g:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
 }
 
 .h {
@@ -215,6 +264,13 @@ nav {
     justify-content: center;
 }
 
+.h:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
+
 .i {
     width: 12.5%;
     height: 100px;
@@ -224,6 +280,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.i:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
 }
 
 .j {
@@ -237,9 +300,14 @@ nav {
     justify-content: center;
 }
 
-.
+.j:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+}
 
-.box{
+.box {
     background: teal;
 }
 

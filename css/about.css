@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: black;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.scndlogo {
+    width: 100%;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.header nav a{
+    text-decoration: none;
+    margin: 30px 20px;
+    color: black;
+}
+
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.scnd {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
+.picstrategy{
+    width: 100%;
+    height: 200px;
+}
+
+.how {
+    width: 100%;
+    height: 200px;
+}
+
+.places {
+    width: 100%;
+    height: 200px;
+}
+
+.colab {
+    width: 100%;
+    height: 200px;
+}
+
+.thrd {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.scnddv {
+    margin: 10px;
+}
+
+.thrddv {
+    margin: 10px;
+}
+
+button{
+    margin: 10px 0;
+    background: white;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.end {
+
+    margin: 20px;
+    
+}
+
+.bottomcls {
+    
+    display: flex;
+    align-content: flex-start;
+    background: black;
+   width: 600px;
+    
+}
+
+.bottomcls a {
+    margin: 20px;
+    display: flex;
+   align-content: flex-start;
+    color: white;
+    text-decoration: none;   
+}
+

@@ -52,6 +52,7 @@ table {
 }
 
 html, body {
+    background: black;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -67,9 +68,34 @@ p {
 }
 
 .container {
+    background: white;
     width: 800px;
-    margin: 0 auto;
+    margin: 15px auto;
+    padding: 0 40px;
 }
+
+.scndlogo {
+    width: 100%;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.header nav a{
+    text-decoration: none;
+    margin: 30px 20px;
+    color: black;
+}
+
+.scndlogo {
+    margin-bottom: 30px;
+}
+
 
 .top-content {
     display: flex;
@@ -101,15 +127,199 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.a {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background: teal;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.a:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.b {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .b:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.c {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.d {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.e {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.e:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.f {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.g {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.h {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.i {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.j {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.j:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.3s;
+        cursor: pointer;
+}
+
+.box {
+    background: teal;
 }
 
 .bottom-content {
@@ -138,6 +348,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 footer nav a {
